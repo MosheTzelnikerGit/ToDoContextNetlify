@@ -19,7 +19,7 @@ const TodoContext = createContext<TodoContextProps>({
     toggleTodo: () => {},
 })
 
-export const TodoProvider: React.FC<TodoProviderProps> = ({ children }) => {
+export const TodoProvider: FC<TodoProviderProps> = ({ children }) => {
     const [todos, setTodos] = useState<Todo[]>([]);
 
     useEffect(() => {
