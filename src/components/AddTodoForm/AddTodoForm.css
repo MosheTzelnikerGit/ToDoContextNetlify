@@ -1,0 +1,40 @@
+
+form {
+    display: flex;
+    padding: 0;
+    margin: 30px;
+    gap: 8px;
+    align-items: center;
+    justify-content: space-between;
+    
+  }
+  
+  input[type="text"] {
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    flex: 1;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 8px;
+  }
+  
+  button {
+    padding: 8px 16px;
+    font-size: 16px;
+    color: #0a0a0a;
+    background-color: #d6765d;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #c53d07;
+  }
+
+  h1 {
+    text-align: center;
+    color: #0a0a0a;
+  }
+  
